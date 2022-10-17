@@ -1,0 +1,17 @@
+#tranferableSkills {
+   padding: 1rem;
+   margin: 0.5rem ;
+   background-color: rgb(250, 250, 250);
+   border-radius: 0.5rem;
+   box-shadow: 1px 1px 3px var(--light-tone);
+}
+
+#tranferableSkills p {
+   padding: 0 1rem ;
+}
+
+#tranferableSkills ul {
+   font-size: 0.9rem;
+   padding: 0.5rem 3rem;
+   list-style: square;
+}

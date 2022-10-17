@@ -1,0 +1,40 @@
+#education {
+   padding: 1rem;
+   margin: 0.5rem ;
+   background-color: rgb(250, 250, 250);
+   border-radius: 0.5rem;
+   box-shadow: 1px 1px 3px var(--light-tone);
+}
+
+#education .institute {
+   padding: 0.5rem 1.5rem;
+}
+
+#education .institute h3 {
+ text-align: start;
+ font-weight: 500;
+ grid-row-start: 1;
+
+ 
+}
+
+#education .institute .course {
+   font-size: 0.9rem;
+   padding: 0.5rem 3rem;
+   grid-row-start: 2;
+   list-style:square;
+}
+
+#education .institute .course span {
+   display: block;
+   font-style: italic;
+   font-size: 0.8rem;
+   font-weight: 300;
+}
+#education .institute .course li {
+   padding: 0.25rem 0;
+}
+
+.educationIcons {
+   margin-right:0.5rem;
+}

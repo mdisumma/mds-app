@@ -1,0 +1,18 @@
+<svg id="shaker" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 251">
+  <!-- <defs> -->
+    <style>
+      .cap,
+      .lid,
+      .cup {
+        fill: none;
+        stroke: rgb(255, 134, 5);
+        stroke-width: 5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  <!-- </defs> -->
+  <path id="cap" class="cap" d="M79.32,48H28.74v-.22l3.12-40.9A6.91,6.91,0,0,1,38.76.5H69.15A6.92,6.92,0,0,1,76,6.86l3.27,40.92Z"/>
+  <path id="lid" class="lid" d="M107.54,78.76H.52c2.34-13.46,13.17-24.87,28.23-31V48H79.32v-.22C94.37,53.89,105.2,65.3,107.54,78.76Z"/>
+  <path id="cup" class="cup" d="M107.56,78.76v.07L93,243.29a7.91,7.91,0,0,1-7.88,7.21H22.75a7.89,7.89,0,0,1-7.88-7.22L.51,78.83v-.07Z"/>
+</svg>

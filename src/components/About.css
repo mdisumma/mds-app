@@ -1,0 +1,10 @@
+#about {
+padding: 1rem;
+margin: 0.5rem ;
+background-color: rgb(250, 250, 250);
+border-radius: 0.5rem;
+box-shadow: 1px 1px 3px var(--light-tone);
+}
+#about p {
+   padding: 0 1rem ;
+}

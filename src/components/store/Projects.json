@@ -1,0 +1,53 @@
+[
+	{
+		"name": "Shaker Animation",
+		"label": "./asset/shaker.svg",
+		"alt": "Shaker image",
+		"date": "March 2021",
+		"course": "Web Development",
+		"graphic": [],
+		"link": "https://shakeranimation.netlify.app/",
+		"gitHub": "https://github.com/mdisumma/shaker-jump"
+	},
+	{
+		"name": "Orange Bar",
+		"label": "./asset/orangeBar.svg",
+		"alt": "Orange Bar logo",
+		"date": "March 2021",
+		"course": "Web Development",
+		"graphic": [],
+		"link": "https:/orangebar.netlify.app/",
+		"gitHub": "https://github.com/mdisumma/cocktail-API"
+	},
+	{
+		"name": "Lomi SPA",
+		"label": "./asset/lomiSpa_logo.svg",
+		"alt": "Lomi SPA logo",
+		"date": "June 2021",
+		"course": "Web Development",
+		"graphic": [],
+		"link": "https://lomi-spa.netlify.app/",
+		"gitHub": "https://github.com/mdisumma/lomi-website"
+	},
+	{
+		"name": "Scrap Defender",
+		"label": "./asset/scrapDefender_logo.png",
+		"alt": "Scrap Defender logo",
+		"date": "July 2021",
+		"course": "Web Development",
+		"graphic": [],
+		"link": "https://scrapdefender.netlify.app/",
+		"gitHub": "https://github.com/mdisumma/scrapdefender"
+	},
+	{
+		"name": "Food To Go",
+		"label": "./asset/foodToGo_icon.svg",
+		"alt": "Food To Go logo",
+		"date": "June 2022",
+		"course": "Web Development",
+		"graphic": [],
+		"link": "https://foodtogo.netlify.app",
+		"gitHub": "https://github.com/mdisumma/food_togo-deploy",
+		"gitHub1": "https://github.com/mdisumma/food_togo-server-deploy"
+	}
+]
