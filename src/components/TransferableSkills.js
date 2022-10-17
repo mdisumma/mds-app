@@ -11,19 +11,19 @@ function TransferableSkills() {
 			</p>
 			<ul>
 				<li>
-					Working under pressure and problem-solving to meet kitchen schedules
+					Working under pressure and problem-solving to meet kitchen schedules;
 				</li>
 				<li>
 					Customer focus and attention to detail to deliver consistently
-					high-quality service.
+					high-quality service;
 				</li>
 				<li>
 					Time management and the ability to multitask in a demanding fast pace
-					environment.
+					environment;
 				</li>
-				<li>Leadership skills in managing kitchen staff and team working.</li>
+				<li>Leadership skills in managing kitchen staff and team working;</li>
 				<li>
-					Creativity and adaptability in continuously evolving circumstances.
+					Creativity and adaptability in continuously evolving circumstances;
 				</li>
 				<li>Basic understanding of budgeting and business management.</li>
 			</ul>
