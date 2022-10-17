@@ -3,7 +3,7 @@ import "./TransferableSkills.css";
 function TransferableSkills() {
 	return (
 		<section id="tranferableSkills">
-			<h2>Tranferable Skills</h2>
+			<h2>Transferable Skills</h2>
 			<p>
 				Initially as the owner of the family-run restaurant with 20 years as a
 				professional chef for a variety of establishments including Michelin
