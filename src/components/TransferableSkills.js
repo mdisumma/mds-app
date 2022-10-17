@@ -5,9 +5,9 @@ function TransferableSkills() {
 		<section id="tranferableSkills">
 			<h2>Transferable Skills</h2>
 			<p>
-				Initially as the owner of the family-run restaurant with 20 years as a
-				professional chef for a variety of establishments including Michelin
-				stars and private clients:
+				20 years experience as a professional chef starting as owner of the
+				family restaurant and working for a variety of establishments including
+				Michelin stars and private clients:
 			</p>
 			<ul>
 				<li>
