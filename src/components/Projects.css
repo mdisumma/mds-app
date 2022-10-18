@@ -49,6 +49,10 @@
    color: var(--mid-tone);
    font-size: 0.9rem;
 }
+.project ul li a {
+   font-weight: 500;
+   color: var(--dark-tone);
+}
 
 
 

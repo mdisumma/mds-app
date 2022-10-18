@@ -9,7 +9,7 @@
 
 #contacts .contactsContainer{
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.6fr 1.4fr;
 }
 
 #contacts .contactForm {
@@ -50,14 +50,16 @@
 
 }
 
-#contacts .contactSocial li {
+#contacts .contactSocial li a {
   display: flex;
   align-items: center;
   padding: 1rem;
+  text-decoration: none;
+  color: var(--dark-tone);
 }
+
 #contacts .contactSocial li  span{
   margin-left: 0.5rem;
-
 }
 
 #contacts .contactSocial li .contactIconImg {

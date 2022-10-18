@@ -17,16 +17,27 @@ function ContactSocial() {
 			>
 				<ul>
 					<li>
-						<FaLinkedinIn /> <span>LinkedIn</span>
+						<a
+							href="https://www.linkedin.com/in/marco-di-summa-1a5146182/"
+							target="blanck"
+						>
+							<FaLinkedinIn /> <span>LinkedIn</span>
+						</a>
 					</li>
 					<li>
-						<SiTwitter /> <span>Twitter</span>
+						<a href="https://twitter.com/MarcoDiSumma1" target="blanck">
+							<SiTwitter /> <span>Twitter</span>
+						</a>
 					</li>
 					<li>
-						<SiGithub /> <span>GitHub</span>
+						<a href="https://github.com/mdisumma" target="blanck">
+							<SiGithub /> <span>GitHub</span>
+						</a>
 					</li>
 					<li>
-						<MdOutlineAlternateEmail /> <span>mdisumma@yahoo.com</span>
+						<a href="mailto:mdisumma@yahoo.com" target="blanck">
+							<MdOutlineAlternateEmail /> <span>mdisumma@yahoo.com</span>
+						</a>
 					</li>
 				</ul>
 			</IconContext.Provider>

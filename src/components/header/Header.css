@@ -60,7 +60,11 @@ header img {
    padding: 0.25em 1.2rem;
 }
 
-.socialIcons ul li:hover {
+.socialIcons ul li a {
+   color: var(--light-tone);
+}
+
+.socialIcons ul li a:hover {
    color: var(--ex-light-tone);
    cursor:pointer;
 }
