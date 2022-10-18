@@ -1,6 +1,10 @@
 function Form() {
+	function submit(e) {
+		e.preventDefault();
+	}
+
 	return (
-		<form className="contactForm">
+		<form on className="contactForm">
 			<label htmlFor="fullName">Full Name</label>
 			<input type="text" id="fullName" name="fullName"></input>
 			<label htmlFor="email">Email</label>
@@ -9,7 +13,7 @@ function Form() {
 			<input type="text" id="Subject" name="subject"></input>
 			<label htmlFor="message">Message</label>
 			<textarea id="message" name="message" rows="4"></textarea>
-			<button>Submit</button>
+			<button onClick={submit()}>Submit</button>
 		</form>
 	);
 }
