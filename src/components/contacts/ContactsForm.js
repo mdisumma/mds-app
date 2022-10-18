@@ -1,19 +1,40 @@
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+console.log(emailjs);
 function Form() {
-	function submit(e) {
+	const form = useRef();
+
+	const sendEmail = (e) => {
 		e.preventDefault();
-	}
+
+		emailjs
+			.sendForm(
+				"service_gu9mi8n",
+				"template_25huuz7",
+				form.current,
+				"nGfwq7xyP-ZimTiR2"
+			)
+			.then(
+				(result) => {
+					console.log(result.text);
+				},
+				(error) => {
+					console.log(error.text);
+				}
+			);
+	};
 
 	return (
-		<form on className="contactForm">
+		<form onSubmit={sendEmail} ref={form} className="contactForm">
 			<label htmlFor="fullName">Full Name</label>
-			<input type="text" id="fullName" name="fullName"></input>
+			<input type="text" id="user_name" name="user_name"></input>
 			<label htmlFor="email">Email</label>
-			<input type="text" id="email" name="email"></input>
+			<input type="email" id="user_email" name="user_email"></input>
 			<label htmlFor="subject">Subject</label>
 			<input type="text" id="Subject" name="subject"></input>
 			<label htmlFor="message">Message</label>
 			<textarea id="message" name="message" rows="4"></textarea>
-			<button onClick={submit()}>Submit</button>
+			<input type="submit" value="Send" />
 		</form>
 	);
 }

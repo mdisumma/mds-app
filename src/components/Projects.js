@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import ProjectData from "./store/Projects.json";
 
 import "./Projects.css";
@@ -18,7 +17,7 @@ function Projects() {
 							<li>{project.date}</li>
 							<li>{project.course}</li>
 							<li>
-								<a target="_blank" href={project.link}>
+								<a target="_blank" href={project.link} rel="noreferrer">
 									website
 								</a>
 							</li>

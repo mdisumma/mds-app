@@ -11,22 +11,31 @@ function SocialIcons() {
 					<a
 						href="https://www.linkedin.com/in/marco-di-summa-1a5146182/"
 						target="blanck"
+						rel="noreferrer"
 					>
 						<RiLinkedinLine />
 					</a>
 				</li>
 				<li>
-					<a href="https://twitter.com/MarcoDiSumma1" target="blanck">
+					<a
+						href="https://twitter.com/MarcoDiSumma1"
+						target="blanck"
+						rel="noreferrer"
+					>
 						<RiTwitterLine />
 					</a>
 				</li>
 				<li>
-					<a href="https://github.com/mdisumma" target="blanck">
+					<a
+						href="https://github.com/mdisumma"
+						target="blanck"
+						rel="noreferrer"
+					>
 						<RiGithubLine />
 					</a>
 				</li>
 				<li>
-					<a href="mailto:mdisumma@yahoo.com" target="blanck">
+					<a href="mailto:mdisumma@yahoo.com">
 						<BsEnvelope />
 					</a>
 				</li>
