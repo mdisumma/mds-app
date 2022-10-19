@@ -1,12 +1,12 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-console.log(emailjs);
+
 function Form() {
-	const form = useRef();
+	const [status, setStatus] = useState(false);
+	const form = useRef(null);
 
 	const sendEmail = (e) => {
 		e.preventDefault();
-
 		emailjs
 			.sendForm(
 				"service_gu9mi8n",
@@ -16,7 +16,13 @@ function Form() {
 			)
 			.then(
 				(result) => {
-					console.log(result.text);
+					form.current.user_name.value = "";
+					form.current.user_email.value = "";
+					form.current.subject.value = "";
+					form.current.message.value = "";
+					if (result.text === "OK") {
+						setStatus(true);
+					}
 				},
 				(error) => {
 					console.log(error.text);
@@ -33,8 +39,10 @@ function Form() {
 			<label htmlFor="subject">Subject</label>
 			<input type="text" id="Subject" name="subject"></input>
 			<label htmlFor="message">Message</label>
-			<textarea id="message" name="message" rows="4"></textarea>
-			<input type="submit" value="Send" />
+			<textarea id="message" name="message" rows="2"></textarea>
+			{!status && <input type="submit" name="submit" value="Send" />}
+
+			{status && <span>Thank you for getting in tuch</span>}
 		</form>
 	);
 }
