@@ -10,10 +10,10 @@ function About() {
 				industry and advance my technical skills within a professional setting.
 			</p>
 			<p>
-				Recently graduated and looking for a junior position as a front-end
-				developer, my expertise covers graphic design principles, digital media
-				production and web development using the javascript framework and the
-				MERN stack.
+				Recently graduated in web development and looking for a junior position
+				as a front-end developer, my expertise covers graphic design principles,
+				digital media production and web development using the javascript
+				framework and the MERN stack.
 			</p>
 		</section>
 	);
