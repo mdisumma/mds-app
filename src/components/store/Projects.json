@@ -4,7 +4,7 @@
 		"label": "./asset/shaker.svg",
 		"alt": "Orange Bar logo",
 		"date": "March 2021",
-		"course": "Web Development",
+		"course": "SAE Institute",
 		"gallery": ["./asset/shaker.svg"],
 		"kind": "website",
 		"link": "https://orangebar1.netlify.app/",
@@ -17,7 +17,7 @@
 		"label": "./asset/lomiSpa_logo.svg",
 		"alt": "Lomi SPA logo",
 		"date": "June 2021",
-		"course": "Web Development",
+		"course": "Freelance job",
 		"gallery": ["./asset/lomiSpa_logo.svg"],
 		"kind": "website",
 		"link": "https://lomi-spa.netlify.app/",
@@ -28,7 +28,7 @@
 		"label": "./asset/scrapDefender/scrapDefender_logo.png",
 		"alt": "Scrap Defender logo",
 		"date": "July 2021",
-		"course": "Web Development",
+		"course": "SAE Institute",
 		"gallery": [
 			"./asset/scrapDefender/scrapDefender_logo.png",
 			"./asset/scrapDefender/scrapDefender_conceptArt.png",
@@ -44,7 +44,7 @@
 		"label": "./asset/foodToGo/foodToGo_icon.svg",
 		"alt": "Food To Go logo",
 		"date": "June 2022",
-		"course": "Web Development",
+		"course": "SAE Institute",
 		"gallery": [
 			"./asset/foodToGo/foodToGo_icon.svg",
 			"./asset/foodToGo/foodToGo_logo.svg"
