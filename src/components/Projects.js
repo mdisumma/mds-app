@@ -6,19 +6,19 @@ import { IconContext } from "react-icons";
 import "./Projects.css";
 
 function Projects() {
-	const [overlay, setOverlay] = useState(false);
+	const [gallery, setgallery] = useState(false);
 
-	function openOverlay(e) {
+	function opengallery(e) {
 		function selection(project) {
 			return project.name === e.currentTarget.firstChild.textContent;
 		}
 		const projectSelected = ProjectData.find(selection);
 		console.log(projectSelected);
-		setOverlay(projectSelected);
+		setgallery(projectSelected);
 	}
 
-	function closeOverlay() {
-		setOverlay(false);
+	function closegallery() {
+		setgallery(false);
 	}
 
 	return (
@@ -30,7 +30,7 @@ function Projects() {
 					className: "backArrowIcon",
 				}}
 			>
-				{!overlay && (
+				{!gallery && (
 					<>
 						<h2>Projects</h2>
 						<div className="projects">
@@ -38,46 +38,60 @@ function Projects() {
 								<div
 									key={project.name}
 									className="project"
-									onClick={openOverlay}
+									onClick={opengallery}
 								>
 									<h3>{project.name}</h3>
 									<img src={project.label} alt={project.alt} height="120px" />
 									<ul>
 										<li>{project.date}</li>
 										<li>{project.course}</li>
-										<li>
-											<a target="_blank" href={project.link} rel="noreferrer">
-												website
-											</a>
-										</li>
+										<li>{project.kind}</li>
 									</ul>
 								</div>
 							))}
 						</div>
 					</>
 				)}
-				{overlay && (
-					<div className="overlay">
-						<button onClick={closeOverlay}>
+				{gallery && (
+					<div className="gallery">
+						<button onClick={closegallery}>
 							<FaArrowLeft />
 						</button>
-						<h3>{overlay.name}</h3>
-						{overlay.gallery.map((image) => (
-							<img key={image} src={image} height="100%" />
-						))}
+						<h3>{gallery.name}</h3>
+						<div className="galleryItems">
+							{gallery.gallery.map((image) => (
+								<img key={image} src={image} height="100%" />
+							))}
+						</div>
+
 						<ul>
 							<li>
-								<a target="_blank" href={overlay.link} rel="noreferrer">
-									<b>Website:</b> {overlay.link}
+								<a target="_blank" href={gallery.link} rel="noreferrer">
+									<b>Website:</b> {gallery.link}
 								</a>
 							</li>
+
+							{gallery.link1 !== undefined && (
+								<li>
+									<a target="_blank" href={gallery.link1} rel="noreferrer">
+										<b>Animation:</b> {gallery.link1}
+									</a>
+								</li>
+							)}
+
 							<li>
-								<a target="_blank" href={overlay.gitHub} rel="noreferrer">
-									<b>GitHub:</b> {overlay.gitHub}
+								<a target="_blank" href={gallery.gitHub} rel="noreferrer">
+									<b>GitHub:</b> {gallery.gitHub}
 								</a>
 							</li>
+							{gallery.gitHub1 !== undefined && (
+								<li>
+									<a target="_blank" href={gallery.gitHub1} rel="noreferrer">
+										<b>GitHub:</b> {gallery.gitHub1}
+									</a>
+								</li>
+							)}
 						</ul>
-						<a target="_blank" href={overlay.gitHub} rel="noreferrer"></a>
 					</div>
 				)}
 			</IconContext.Provider>

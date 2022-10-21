@@ -54,28 +54,36 @@
    color: var(--dark-tone);
 }
 
-.overlay h3{
+.gallery h3{
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }
-.overlay img{
-   max-width: 360px;
-   max-height: 240px;
+.galleryItems {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
 }
-.overlay button {
+.galleryItems img{
+   box-sizing: border-box;
+   padding: 2em;
+   width: 100%;
+   margin:  0rem auto;
+   max-width: 420px;
+}
+.gallery button {
  
    padding: 0.25rem;
    background-color: transparent;
    border: none;
 }
-.overlay li {
+.gallery li {
    overflow:hidden;
    font-size: 0.9rem;
    display: flex;
    flex-wrap: wrap;
    margin:0.5rem 1rem;
 }
-.overlay li a {
+.gallery li a {
   color: var(--dark-tone);
 }
 
