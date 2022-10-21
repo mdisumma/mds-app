@@ -1,6 +1,8 @@
 import { useState } from "react";
 import ProjectData from "./store/Projects.json";
+import { FaArrowLeft } from "react-icons/fa";
 
+import { IconContext } from "react-icons";
 import "./Projects.css";
 
 function Projects() {
@@ -21,35 +23,64 @@ function Projects() {
 
 	return (
 		<section id="projects">
-			<h2>Projects</h2>
-			{!overlay && (
-				<div className="projects">
-					{ProjectData.map((project) => (
-						<div key={project.name} className="project" onClick={openOverlay}>
-							<h3>{project.name}</h3>
-							<img src={project.label} alt={project.alt} height="120px" />
-							<ul>
-								<li>{project.date}</li>
-								<li>{project.course}</li>
-								<li>
-									<a target="_blank" href={project.link} rel="noreferrer">
-										website
-									</a>
-								</li>
-							</ul>
+			<IconContext.Provider
+				value={{
+					color: "var(--mid-tone)",
+					size: 20,
+					className: "backArrowIcon",
+				}}
+			>
+				{!overlay && (
+					<>
+						<h2>Projects</h2>
+						<div className="projects">
+							{ProjectData.map((project) => (
+								<div
+									key={project.name}
+									className="project"
+									onClick={openOverlay}
+								>
+									<h3>{project.name}</h3>
+									<img src={project.label} alt={project.alt} height="120px" />
+									<ul>
+										<li>{project.date}</li>
+										<li>{project.course}</li>
+										<li>
+											<a target="_blank" href={project.link} rel="noreferrer">
+												website
+											</a>
+										</li>
+									</ul>
+								</div>
+							))}
 						</div>
-					))}
-				</div>
-			)}
-			{overlay && (
-				<div className="overlay">
-					<button onClick={closeOverlay}>close</button>
-					<h3>{overlay.name}</h3>
-					{overlay.gallery.map((image) => (
-						<img key={image} src={image} height="240px"></img>
-					))}
-				</div>
-			)}
+					</>
+				)}
+				{overlay && (
+					<div className="overlay">
+						<button onClick={closeOverlay}>
+							<FaArrowLeft />
+						</button>
+						<h3>{overlay.name}</h3>
+						{overlay.gallery.map((image) => (
+							<img key={image} src={image} height="100%" />
+						))}
+						<ul>
+							<li>
+								<a target="_blank" href={overlay.link} rel="noreferrer">
+									<b>Website:</b> {overlay.link}
+								</a>
+							</li>
+							<li>
+								<a target="_blank" href={overlay.gitHub} rel="noreferrer">
+									<b>GitHub:</b> {overlay.gitHub}
+								</a>
+							</li>
+						</ul>
+						<a target="_blank" href={overlay.gitHub} rel="noreferrer"></a>
+					</div>
+				)}
+			</IconContext.Provider>
 		</section>
 	);
 }
