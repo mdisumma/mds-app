@@ -59,9 +59,8 @@
   margin-bottom: 2rem;
 }
 .overlay img{
-  
    max-width: 360px;
-   max-height: 360px;
+   max-height: 240px;
 }
 .overlay button {
  
@@ -70,7 +69,7 @@
    border: none;
 }
 .overlay li {
-   overflow: hidden;
+   overflow:hidden;
    font-size: 0.9rem;
    display: flex;
    flex-wrap: wrap;
