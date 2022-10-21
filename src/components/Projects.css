@@ -68,7 +68,9 @@
    padding: 2em;
    width: 100%;
    margin:  0rem auto;
+   max-height: 420px;
    max-width: 420px;
+  
 }
 .gallery button {
  
