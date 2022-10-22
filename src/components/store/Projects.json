@@ -111,15 +111,5 @@
 			"./asset/cdCover/theCure_cover.png"
 		],
 		"link": ""
-	},
-	{
-		"name": "Card",
-		"label": "./asset/card/moodboard.jpg",
-		"alt": "cd cover",
-		"date": "March 2020",
-		"course": "Grapich Design",
-		"kind": "cards",
-		"gallery": ["./asset/card/moodboard.jpg", "./asset/card/xmas_card.png"],
-		"link": ""
 	}
 ]
