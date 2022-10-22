@@ -1,11 +1,11 @@
 [
 	{
 		"name": "Orange Bar",
-		"label": "./asset/shaker.svg",
+		"label": "./asset/orangeBar/shaker.svg",
 		"alt": "Orange Bar logo",
 		"date": "March 2021",
 		"course": "SAE Institute",
-		"gallery": ["./asset/shaker.svg"],
+		"gallery": ["./asset/orangeBar/shaker.svg"],
 		"kind": "website",
 		"link": "https://orangebar1.netlify.app/",
 		"link1": "https://shakeranimation.netlify.app/",
@@ -14,11 +14,11 @@
 	},
 	{
 		"name": "Lomi SPA",
-		"label": "./asset/lomiSpa_logo.svg",
+		"label": "./asset/lomiSpa/lomiSpa_logo.svg",
 		"alt": "Lomi SPA logo",
 		"date": "June 2021",
 		"course": "Freelance job",
-		"gallery": ["./asset/lomiSpa_logo.svg"],
+		"gallery": ["./asset/lomiSpa/lomiSpa_logo.svg"],
 		"kind": "website",
 		"link": "https://lomi-spa.netlify.app/",
 		"gitHub": "https://github.com/mdisumma/lomi-website"
@@ -67,5 +67,59 @@
 			"./asset/publicCoffee/publicCoffee_colors.png"
 		],
 		"link": "https://www.facebook.com/thepubliccafecebu/"
+	},
+	{
+		"name": "Roll up",
+		"label": "./asset/rollUp/rollup_MK.png",
+		"alt": "roll up image",
+		"date": "March 2020",
+		"course": "Creative Media",
+		"kind": "advertising",
+		"gallery": [
+			"./asset/rollUp/motherboard.png",
+			"./asset/rollUp/eCommerce_rollup.png",
+			"./asset/rollUp/rollup_MK.png",
+			"./asset/rollUp/rollup_MKD.png"
+		],
+		"link": ""
+	},
+	{
+		"name": "Brochure",
+		"label": "./asset/brochure/brochure_TriFold.jpg",
+		"alt": "Brochure of design museum",
+		"date": "March 2020",
+		"course": "Creative Media",
+		"kind": "advertising",
+		"gallery": [
+			"./asset/brochure/brochure_TriFold.jpg",
+			"./asset/brochure/brochure_left.jpg",
+			"./asset/brochure/brochure_right.jpg",
+			"./asset/brochure/brochure.png"
+		],
+		"link": ""
+	},
+	{
+		"name": "CD cover",
+		"label": "./asset/cdCover/carlosSantana_cover.png",
+		"alt": "cd cover",
+		"date": "March 2020",
+		"course": "Grapich Design",
+		"kind": "packaging",
+		"gallery": [
+			"./asset/cdCover/carlosSantana_cover.png",
+			"./asset/cdCover/duftPunk_cover.png",
+			"./asset/cdCover/theCure_cover.png"
+		],
+		"link": ""
+	},
+	{
+		"name": "Card",
+		"label": "./asset/card/moodboard.jpg",
+		"alt": "cd cover",
+		"date": "March 2020",
+		"course": "Grapich Design",
+		"kind": "cards",
+		"gallery": ["./asset/card/moodboard.jpg", "./asset/card/xmas_card.png"],
+		"link": ""
 	}
 ]
