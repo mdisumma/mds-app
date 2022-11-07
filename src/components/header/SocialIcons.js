@@ -2,6 +2,7 @@ import { RiLinkedinLine } from "react-icons/ri";
 import { RiTwitterLine } from "react-icons/ri";
 import { RiGithubLine } from "react-icons/ri";
 import { BsEnvelope } from "react-icons/bs";
+import { FaFileDownload } from "react-icons/fa";
 
 function SocialIcons() {
 	return (
@@ -32,6 +33,11 @@ function SocialIcons() {
 						rel="noreferrer"
 					>
 						<RiGithubLine />
+					</a>
+				</li>
+				<li>
+					<a href="./asset/cv/Marco_Di_Summa_Resume.pdf" download>
+						<FaFileDownload />
 					</a>
 				</li>
 				<li>

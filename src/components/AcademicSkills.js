@@ -25,7 +25,7 @@ function AcademinSkills() {
 					<li>REST Api</li>
 					<li>Animation</li>
 					<li>SEO</li>
-					<li>Media Communication</li>
+					<li>Analatics</li>
 				</ul>
 			</div>
 		</section>
