@@ -23,10 +23,9 @@ function App() {
 				<div className="skillsContainer">
 					<CodingSkills />
 					<SoftwareSkills />
-					<TransferableSkills />
 				</div>
+				<TransferableSkills />
 				<Projects />
-
 				<Contacts />
 			</main>
 			<Footer />
