@@ -5,9 +5,8 @@ import { SiJavascript } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
-
-import { TbVectorBezier } from "react-icons/tb";
 import { VscJson } from "react-icons/vsc";
+import { SiGit } from "react-icons/si";
 
 import { IconContext } from "react-icons";
 import "./Skills.css";
@@ -55,10 +54,9 @@ function CodingSkills() {
 						<SiMongodb />
 						MongoDb
 					</li>
-
 					<li>
-						<TbVectorBezier />
-						SVG
+						<SiGit />
+						Git
 					</li>
 				</ul>
 			</IconContext.Provider>

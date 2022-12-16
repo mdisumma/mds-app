@@ -3,10 +3,10 @@ import { SiAdobeillustrator } from "react-icons/si";
 import { SiAdobephotoshop } from "react-icons/si";
 import { SiAdobeindesign } from "react-icons/si";
 import { SiAdobexd } from "react-icons/si";
-import { SiGit } from "react-icons/si";
 import { SiVisualstudiocode } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 import { SiNetlify } from "react-icons/si";
+import { TbVectorBezier } from "react-icons/tb";
 
 import { IconContext } from "react-icons";
 import "./Skills.css";
@@ -43,8 +43,8 @@ function SoftwareSkills() {
 						Xd
 					</li>
 					<li>
-						<SiGit />
-						Git
+						<TbVectorBezier />
+						SVG
 					</li>
 					<li>
 						<SiVisualstudiocode />
