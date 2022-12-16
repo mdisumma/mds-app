@@ -17,15 +17,16 @@ function App() {
 			<Header />
 			<main className="mainContainer">
 				<About />
-				<TransferableSkills />
 
 				<Education />
 				<AcademinSkills />
 				<div className="skillsContainer">
 					<CodingSkills />
 					<SoftwareSkills />
+					<TransferableSkills />
 				</div>
 				<Projects />
+
 				<Contacts />
 			</main>
 			<Footer />
