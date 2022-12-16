@@ -6,15 +6,14 @@ function AcademinSkills() {
 			<h2>Academic Skills</h2>
 			<div className="accademicSkills">
 				<ul>
-					<li>Colour Theory</li>
-					<li>Typography</li>
+					<li>Brand Principles</li>
+					<li>Logo Creation</li>
+					<li>Infographic</li>
 					<li>Layout Design</li>
 					<li>Media Production</li>
 					<li>Image Manipulation</li>
 					<li>Vector Graphic</li>
-					<li>Brand Principles</li>
-					<li>Logo Creation</li>
-					<li>Infographic</li>
+					<li>Animation</li>
 				</ul>
 				<ul>
 					<li>Web Essential</li>
@@ -23,7 +22,6 @@ function AcademinSkills() {
 					<li>Back-end development</li>
 					<li>Database</li>
 					<li>REST Api</li>
-					<li>Animation</li>
 					<li>SEO</li>
 					<li>Analytics</li>
 				</ul>
