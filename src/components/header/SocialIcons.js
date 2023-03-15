@@ -36,7 +36,7 @@ function SocialIcons() {
           </a>
         </li>
         <li>
-          <a href="./asset/cv/MarcoDiSumma-Resume.pdf" download>
+          <a href="./asset/cv/Marco_Di_Summa-Resume.pdf" download>
             <FaFileDownload />
           </a>
         </li>
