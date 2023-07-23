@@ -35,12 +35,12 @@ function SoftwareSkills() {
             Photoshop
           </li>
           <li>
-            <SiFigma />
-            Figma
+            <SiAdobeindesign />
+            InDesign
           </li>
           <li>
-            <SiAdobexd />
-            Xd
+            <SiFigma />
+            Figma
           </li>
           <li>
             <TbVectorBezier />
