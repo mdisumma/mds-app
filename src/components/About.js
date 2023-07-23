@@ -1,22 +1,21 @@
 import "./About.css";
 
 function About() {
-	return (
-		<section id="about">
-			<p>
-				Passionate about art and technology and driven by new working
-				aspirations, I committed the last four years to turn my interest into a
-				career, building the foundation required to start my journey in the web
-				industry and advance my technical skills within a professional setting.
-			</p>
-			<p>
-				Recently graduated in web development and looking for a junior position
-				as a front-end developer, my expertise covers graphic design principles,
-				digital media production and web development using the javascript
-				framework and the MERN stack.
-			</p>
-		</section>
-	);
+  return (
+    <section id="about">
+      <p>
+        Recent web development graduate, currently building my experience in UX
+        & UI design with Experience Haus’ office based UX & UI Career
+        Development Bootcamp.
+      </p>
+      <p>
+        My skills include graphic and web design using the Adobe Creative Suite
+        and Figma, Front-end, Fullstack and APIs development using the
+        JavaScript framework and the MERN stack. I am searching for an
+        opportunity to grow my career within a creative environment.
+      </p>
+    </section>
+  );
 }
 
 export default About;
