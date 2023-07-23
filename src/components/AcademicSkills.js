@@ -13,13 +13,12 @@ function AcademinSkills() {
           <li>Back-end development</li>
           <li>Database</li>
           <li>REST Api</li>
-          <li>SEO</li>
         </ul>
         <ul>
+          <li>SEO</li>
           <li>Analytics</li>
           <li>Brand Principles</li>
           <li>Logo Creation</li>
-          <li>Layout Design</li>
           <li>Media Production</li>
           <li>Vector Graphic</li>
           <li>Animation</li>
