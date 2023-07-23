@@ -2,7 +2,7 @@ import { SiAdobe } from "react-icons/si";
 import { SiAdobeillustrator } from "react-icons/si";
 import { SiAdobephotoshop } from "react-icons/si";
 import { SiAdobeindesign } from "react-icons/si";
-import { SiAdobexd } from "react-icons/si";
+import { SiFigma } from "react-icons/si";
 import { SiVisualstudiocode } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
 import { SiNetlify } from "react-icons/si";
