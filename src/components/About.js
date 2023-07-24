@@ -10,7 +10,7 @@ function About() {
       </p>
       <p>
         My skills include graphic and web design using the Adobe Creative Suite
-        and Figma, Front-end, Fullstack and APIs development using the
+        and Figma, Front-end, Full-stack and APIs development using the
         JavaScript framework and the MERN stack. I am searching for an
         opportunity to grow my career within a creative environment.
       </p>
