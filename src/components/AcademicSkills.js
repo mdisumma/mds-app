@@ -8,7 +8,7 @@ function AcademinSkills() {
         <ul>
           <li>Responsive Design</li>
           <li>User research</li>
-          <li>UX & UI</li>
+          <li>User Interface design</li>
           <li>Front-end Development</li>
           <li>Back-end development</li>
           <li>Database</li>
