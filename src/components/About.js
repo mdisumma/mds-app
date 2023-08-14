@@ -4,15 +4,16 @@ function About() {
   return (
     <section id="about">
       <p>
-        Recent web development graduate, currently building my experience in UX
-        & UI design with Experience Haus’ office based UX & UI Career
-        Development Bootcamp.
+        I've recently completed my web development degree and am currently
+        expanding my expertise in UX and UI design through Experience Haus'
+        on-site UX & UI Career Development Bootcamp.
       </p>
       <p>
-        My skills include graphic and web design using the Adobe Creative Suite
-        and Figma, Front-end, Full-stack and APIs development using the
-        JavaScript framework and the MERN stack. I am searching for an
-        opportunity to grow my career within a creative environment.
+        I possess skills in graphic and web design, utilising tools like the
+        Adobe Creative Suite and Figma. Furthermore, I am skilled in front-end,
+        full-stack, and API development, with a focus on JavaScript frameworks
+        and the MERN stack. I'm eager to find an opportunity to advance my
+        career within a dynamic and creative setting
       </p>
     </section>
   );
